@@ -1,0 +1,21 @@
+{
+    "name": "controleonline/upload",
+    "description": "Controle Online - Upload Module",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "Upload"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Upload\\": "src/Upload"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    },
+    "homepage": "https://github.com/ControleOnline/upload",
+    "require": {
+        "controleonline/core": "*",
+        "controleonline/assets-essentials": "*"                
+    }    
+}
